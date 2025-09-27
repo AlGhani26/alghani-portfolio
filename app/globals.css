@@ -87,3 +87,18 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
