@@ -5,8 +5,18 @@ import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "react-lottie";
 import { cn } from "@/utils/cn";
 
-import { FaJava, FaPython, FaJsSquare } from "react-icons/fa";
-import { SiGoland, SiNextdotjs, SiSpringboot } from "react-icons/si";
+import { FaJava, FaPython, FaJsSquare, FaReact } from "react-icons/fa";
+import { 
+  SiGoland, 
+  SiNextdotjs, 
+  SiSpringboot, 
+  SiPostgresql, 
+  SiMysql, 
+  SiMongodb, 
+  SiTypescript, 
+  SiSharp, 
+  SiDotnet 
+} from "react-icons/si";
 import Marquee from "react-fast-marquee";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -156,8 +166,15 @@ export const BentoGridItem = ({
                   FaPython,
                   SiGoland,
                   SiNextdotjs,
-                  FaJsSquare,
+                  FaJsSquare,   // JavaScript
                   SiSpringboot,
+                  SiPostgresql, // PostgreSQL
+                  SiMysql,      // MySQL
+                  SiMongodb,    // MongoDB
+                  SiTypescript, // TypeScript
+                  FaReact,      // ReactJS
+                  SiSharp,     // C#
+                  SiDotnet,     // .NET
                 ].map((Icon, i) => (
                   <div
                     key={i}
