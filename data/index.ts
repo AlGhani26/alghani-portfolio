@@ -209,13 +209,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/AlGhani26"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/ig.svg",
+    link: "https://www.instagram.com/alghani_26/"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/nalghani/"
   },
 ];
