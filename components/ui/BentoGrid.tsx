@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
+import { IoDownloadSharp } from "react-icons/io5";
 import Lottie from "react-lottie";
 import { cn } from "@/utils/cn";
 
@@ -64,10 +64,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Springboot", "Golang", "Next.js"];
-  const rightLists = ["Java", "Python", "JavaScript"];
-
-  const [copied, setCopied] = useState(false);
+  const [copied] = useState(false);
 
   const defaultOptions = {
     loop: copied,
@@ -203,7 +200,7 @@ export const BentoGridItem = ({
 
               <MagicButton
                 title="Download my CV"
-                icon={<IoCopyOutline />}
+                icon={<IoDownloadSharp />}
                 position="left"
                 handleClick={handleDownload}
                 otherClasses="!bg-[#161A31]"
