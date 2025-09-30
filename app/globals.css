@@ -102,3 +102,8 @@
   width: max-content;
   animation: scroll 15s linear infinite;
 }
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
