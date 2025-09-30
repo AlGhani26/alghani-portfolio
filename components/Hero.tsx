@@ -34,7 +34,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
-            Hi, I'm Ghani, a Backend Developer and AI/ML enthusiast based in Bandung, Indonesia.
+            {"Hi, I'm Ghani, a Backend Developer and AI/ML enthusiast based in Bandung, Indonesia."}
           </p>
 
           <a href="#about">

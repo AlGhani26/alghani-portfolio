@@ -8,11 +8,12 @@ const Footer = () => {
     <footer className="w-full pt-20 pb-10" id="contact">
       <div className="py-20 flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-        Let's build <span className="text-purple">something</span> amazing together
+          {"Let's build "}
+          <span className="text-purple">something</span>
+          {" amazing together"}
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-        I'm always open to new projects and collaborations — feel free to get in
-        touch and let's turn your ideas into reality.
+          {"I'm always open to new projects and collaborations — feel free to get in touch and let's turn your ideas into reality."}
         </p>
 
         <a href="mailto:alghani63@gmail.com">
